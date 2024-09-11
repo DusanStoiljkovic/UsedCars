@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./pozadina.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    };
+    padding: 20px;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 1.5em;
+    color: orange;
+}
+
+
+header a {
+    color: orange;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.right-header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    background-color: white;
+    border-bottom: 1px solid #555 ;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 15px;
+    display: block;
+    font-weight: 700;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+#contact {
+    padding-left: 6em;
+    padding-top:20px;
+    padding-bottom: 50px;
+}
+
+#search_car {
+    form{
+        padding: 20px;
+        display: grid;
+        grid-template-columns:  auto auto auto auto;
+        justify-content: center;
+        .grid-item {
+            margin:10px;
+        };
+        border-bottom: 1px solid black;
+    };
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: orange;
+    }
+}
+
+#login {
+    text-align: center;
+}
+
+#add_car {
+    padding-bottom: 50px;
+    
+    .kolona{
+        display: flex;
+        padding: 50px;
+        input[type='text'] {
+            padding:15px;
+            margin:10px;
+        };
+        input[type='number'] {
+            padding:15px;
+            margin:10px;
+        };
+        input[type='submit'] {
+            padding:5px;
+            margin:10px;
+            margin-left:-60px;
+        };
+        input[type='file'] {
+            padding:10;
+            margin:10px;
+        };
+    };
+    .desnakolona {
+        display: flex;
+    }
+}
+
+#register {
+    text-align: center;
+}
+
+.log-wrapper {
+    display: flex;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar a:hover {
+    color: #00f;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+login-section label{
+    color:#333;
+}
+
+.page-contact {
+
+    label {
+        color: white;
+    };
+    .container {
+        width: 30%;
+        background-color: grey;
+        
+    }
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 1em;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: #333;
+    color: orange;
+    padding: 5px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #ddd;
+}
